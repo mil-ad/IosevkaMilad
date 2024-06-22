@@ -1,0 +1,6 @@
+[buildPlans.IosevkaCustom]
+family = "Iosevka Milad"
+spacing = "quasi-proportional"
+serifs = "sans"
+noCvSs = true
+exportGlyphNames = false
