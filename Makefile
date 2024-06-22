@@ -5,7 +5,7 @@ build-iosevka:
 	yay -S --noconfirm ttfautohint || true
 	cp private-build-plans.toml repo || true
 	cd repo && npm install
-	cd repo && npm run build -- contents::IosevkaMilad
+	cd repo && npm run build -- ttf::IosevkaMilad woff2::IosevkaMilad
 	#rm -r dist
 	#cp -r repo/dist/IosevkaCustom .
 
