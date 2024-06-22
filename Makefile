@@ -6,6 +6,6 @@ build-iosevka:
 	cp private-build-plans.toml repo || true
 	cd repo && npm install
 	cd repo && npm run build -- ttf::IosevkaMilad woff2::IosevkaMilad
-	#rm -r dist
-	#cp -r repo/dist/IosevkaCustom .
+	rm -r IosevkaMilad
+	cp -r repo/dist/IosevkaCustom .
 
