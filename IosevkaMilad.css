@@ -1,0 +1,630 @@
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-Thin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedThin.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ThinOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ThinOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedThinOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedThinOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ThinItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 100;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedThinItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedExtraLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtraLightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtraLightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedExtraLightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedExtraLightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtraLightItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 200;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedExtraLightItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-Light.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedLight.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-LightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-LightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedLightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedLightOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-LightItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 300;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedLightItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-Extended.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-Oblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-Oblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-Italic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 400;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-Medium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedMedium.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-MediumOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-MediumOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedMediumOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedMediumOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-MediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 500;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedMediumItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-SemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedSemiBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-SemiBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-SemiBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedSemiBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedSemiBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-SemiBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 600;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedSemiBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-BoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-BoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-BoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 700;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedExtraBold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtraBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtraBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedExtraBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedExtraBoldOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtraBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 800;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedExtraBoldItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-Heavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedHeavy.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-HeavyOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-HeavyOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: oblique;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedHeavyOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad Web Oblique';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedHeavyOblique.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: normal;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-HeavyItalic.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Iosevka Milad';
+	font-display: swap;
+	font-weight: 900;
+	font-stretch: expanded;
+	font-style: italic;
+	src: url('https://mil.ad/assets/fonts/IosevkaMilad/IosevkaMilad-ExtendedHeavyItalic.woff2') format('woff2');
+}
